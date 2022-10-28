@@ -1,4 +1,4 @@
-# Solar Radiation Clustering
+# Photovoltaic Power Generation Forecasting for Regional Assessment using Machine Learning
 
 ## Instalación de requerimientos
 **Instalación para cualquier plataforma: Windows, linux, MacOs**
