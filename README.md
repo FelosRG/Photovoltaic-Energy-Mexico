@@ -27,7 +27,7 @@ Mean daily solar radiation per month is calculated per cell. Cells are clustered
 ### Download the data 📲
 The data used in the paper can be found on
 
-http://adrianrg.me/drive/Photovoltaic-Energy-Mexico/data.h5
+http://adrianrg.me/drive/paper2022PV/data.h5
 
 Once downloaded it needed to be place on <br>Photovoltaic-Energy-Mexico/Data/data.h5 <br>
 
