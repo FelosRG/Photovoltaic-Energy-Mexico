@@ -48,7 +48,7 @@ To star to using this repository we need to activate our new environment with
 canda activate SRC
 ```
 
-## Collection of the data
+## Collection of the data 📊
 The collection of the data present in data.h5 start when downloading directly from  the NSRDB webpage (https://nsrdb.nrel.gov/data-viewer/download/big-data). <br> Once define the datapoints of our study we need to download the data for each of the points. This can take a while due to the limitations of the NSRDB webpage and the amount of data downloaded (>10 GB).
 
 Note: Each of the files coming  from the NSRDB are on csv format and contain the data of one year of one point.
@@ -61,3 +61,6 @@ The access of the information in the code is done by the python module placed in
 Photovoltaic-Energy-Mexico/lib/datos.py
 
 The steps described here reduce the raw data (10GB) to a hdf5 file of only 300MB that is faster and easier to use. 
+
+## Acknowledgments
+This work arises from the project “Predicción del Recurso Solar usando imágenes satelitales para impulsar el desarrollo sostenible en comunidades aisladas con energía asequible y no contaminante” approved in the Proyecto Espacial Universitario (PEU) from Universidad Nacional Autónoma de México (UNAM). The authors thank the PEU program for their support in the publication of this work. Monica Borunda also thanks CONACYT for her Catedra Research Position with ID 71557, and to CENIDET for its hospitality
