@@ -4,16 +4,22 @@ This is the code for the paper *Photovoltaic Power Generation Forecasting for Re
 
 Solar energy currently plays a major role in supplying clean and renewable electric energy worldwide. Harnessing solar energy through PV plants requires solving several problems such as site selection, for which solar resource assessment and photovoltaic energy forecasting are fundamental issues. <br> This paper proposes a methodology to solve the long-term version of these two critical requirements based on retrieving solar radiation and temperature data from free access databases and using data clustering and probability techniques. This methodology is demonstrated via a case study for Mexico. Its surface is divided into 731 land cells, for which solar radiation and temperature hourly data are retrieved from NSRDB from 2000 to 2020.
 
-<p style="text-align: center; font-style: italic ;">
-<img src="fig/grid.png" alt="Locations use" width=50%/><br>
-Each of the pixels correspond to a location used 
+<p style="text-align: center;">
+
+<img src="fig/grid.png" alt="Locations use" width=50%/>
+
+*Each of the pixels correspond to a location used*
+
 </p>
 
 Mean daily solar radiation per month is calculated per cell. Cells are clustered by radiation levels into regions with similar solar resources and mapped monthly. Simultaneously, probabilities of temperature are calculated and mapped per cell. Then, PV energy is calculated per cell including heat losses. As the leading result, PV power forecasting is achieved by constructing the P50 and P90 estimation atlas of mean yearly PV energy for the country. Results show that this methodology can be used to locate potential sites to build PV facilities in a first approximation
 
-<p style="text-align: center; font-style: italic ;">
-<img src="fig/mean_PV_energy.png" alt="Mean PV Energy" width=50%/><br>
-Mean yearly PV energy obtained with the methodology described here
+<p style="text-align: center;">
+
+<img src="fig/mean_PV_energy.png" alt="Mean PV Energy" width=50%/>
+
+*Mean yearly PV energy obtained with the methodology described here*
+
 </p>
 
 ## Instalation of requeriments
