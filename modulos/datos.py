@@ -1,4 +1,6 @@
-
+"""
+Modulo para la administración de los datos.
+"""
 import os
 import h5py
 import datetime
@@ -9,11 +11,10 @@ from pathlib import Path
 # Paths base
 script_path = Path(os.path.realpath(__file__))
 script_dir  = script_path.parent.absolute()
-DIR_ROOT = script_dir.parent.absolute()
+DIR_ROOT    = script_dir.parent.absolute()
 
 # Paths programas
 PATH_DATOS = str(DIR_ROOT / "Data" / "data.h5")
-
 
 class Datos:
     def __init__(self,array):
@@ -70,7 +71,6 @@ class Explorador:
                     key = self.obtener_key(lat,lon)
                     lista_keys.append(key)
         return lista_keys
-
 
     def extraer_datos(self,año,key):
         with h5py.File(self.path_datos,"r") as file:
