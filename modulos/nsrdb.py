@@ -5,8 +5,9 @@ import pathlib
 import pandas as pd
 
 
-email   = "felos@ciencias.unam.mx"
-api_key = "gfYiPMGMLLOMK6h8PcSp2102kPZrFFwFIqp5vSM9"
+# Place here the email and token of your NSRDB account
+email   = ""
+api_key = ""
 
 def coordinate2filename(lat,lon,year):
     lat = round(lat,3)

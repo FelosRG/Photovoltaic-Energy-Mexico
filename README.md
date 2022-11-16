@@ -49,7 +49,7 @@ canda activate SRC
 ```
 
 ## Collection of the data 📊
-The collection of the data present in data.h5 start when downloading directly from  the NSRDB webpage (https://nsrdb.nrel.gov/data-viewer/download/big-data). <br> Once define the datapoints of our study we need to download the data for each of the points. This can take a while due to the limitations of the NSRDB webpage and the amount of data downloaded (>10 GB).
+The collection of the data present in data.h5 start when downloading directly from  the NSRDB webpage (https://nsrdb.nrel.gov/data-viewer/download/big-data). <br> Once define the datapoints of our study we need to download the data for each of the points. This can take a while due to the limitations of the NSRDB webpage and the amount of data downloaded (>10 GB). The python functions for download data from the NSRDB are implemented in modulos/nsrdb.py
 
 Note: Each of the files coming  from the NSRDB are on csv format and contain the data of one year of one point.
 
