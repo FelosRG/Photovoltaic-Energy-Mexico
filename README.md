@@ -1,6 +1,10 @@
 # Photovoltaic Power Generation Forecasting for Regional Assessment using Machine Learning
 
 This is the code for the paper *Photovoltaic Power Generation Forecasting for Regional Assessment using Machine Learning*. <br>
+DOI: https://doi.org/10.3390/en15238895 <br>
+
+*This study involves the analysis, collection, and examination of solar radiation data in Mexico, aiming to identify the 
+most suitable locations for harnessing solar resources for electricity generation.*<br>
 
 Solar energy currently plays a major role in supplying clean and renewable electric energy worldwide. Harnessing solar energy through PV plants requires solving several problems such as site selection, for which solar resource assessment and photovoltaic energy forecasting are fundamental issues. <br> This paper proposes a methodology to solve the long-term version of these two critical requirements based on retrieving solar radiation and temperature data from free access databases and using data clustering and probability techniques. This methodology is demonstrated via a case study for Mexico. Its surface is divided into 731 land cells, for which solar radiation and temperature hourly data are retrieved from NSRDB from 2000 to 2020.
 
