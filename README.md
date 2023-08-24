@@ -23,7 +23,11 @@ Mean daily solar radiation per month is calculated per cell. Cells are clustered
 <img src="fig/mean_PV_energy.png" alt="Mean PV Energy" width=50%/>
 
 *Mean yearly PV energy obtained with the methodology described here*
+</p>
 
+<p style="text-align: center;">
+The k-means algorithm is employed to cluster regions based on the average energy level they have available at each location
+<img src="fig/daily_energy_centroids.png" alt="Mean PV Energy" width=50%/> 
 </p>
 
 ## Instalation of requeriments
