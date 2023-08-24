@@ -5,6 +5,10 @@ DOI: https://doi.org/10.3390/en15238895  🔗 You can reed the paper here (Open 
 
 *This study involves the analysis, collection, and examination of solar radiation data in Mexico, aiming to identify the most suitable locations for harnessing solar resources for electricity generation. The data is classified and divided into regions using the k-means clustering algorithm. This approach allows for the effective grouping of geographical areas based on their comparable average energy availability, facilitating the identification of optimal sites for solar energy utilization.* ☀<br>
 
+
+**📝 This repository contains the code for raw data download, as well as a notebook that can be used by following the instructions provided in the following sections.**
+<br>
+
 Solar energy currently plays a major role in supplying clean and renewable electric energy worldwide. Harnessing solar energy through PV plants requires solving several problems such as site selection, for which solar resource assessment and photovoltaic energy forecasting are fundamental issues. <br> This paper proposes a methodology to solve the long-term version of these two critical requirements based on retrieving solar radiation and temperature data from free access databases and using data clustering and probability techniques. This methodology is demonstrated via a case study for Mexico. Its surface is divided into 731 land cells, for which solar radiation and temperature hourly data are retrieved from NSRDB from 2000 to 2020.
 
 <p style="text-align: center;" align="center">
