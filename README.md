@@ -1,7 +1,7 @@
 # Photovoltaic Power Generation Forecasting for Regional Assessment using Machine Learning
 
 This is the code for the paper *Photovoltaic Power Generation Forecasting for Regional Assessment using Machine Learning*. <br>
-DOI: https://doi.org/10.3390/en15238895  🔗 You can reed the paper here (Open Access)<br>
+DOI: https://doi.org/10.3390/en15238895  🔗 You can read the paper here (Open Access)<br>
 
 *This study involves the analysis, collection, and examination of solar radiation data in Mexico, aiming to identify the most suitable locations for harnessing solar resources for electricity generation. The data is classified and divided into regions using the k-means clustering algorithm. This approach allows for the effective grouping of geographical areas based on their comparable average energy availability, facilitating the identification of optimal sites for solar energy utilization.* ☀<br>
 
